@@ -1,0 +1,85 @@
+
+=================================================================
+   GCC WATER-ENERGY-FOOD NEXUS VULNERABILITY ANALYSIS
+   Author: Dr. Adedamola Akeem Siyanbola (Ph.D)
+   Date: May 2026
+   Tools: Python | Pandas | Matplotlib | Seaborn | World Bank Data
+=================================================================
+
+RESEARCH QUESTION
+-----------------
+How vulnerable are the six GCC member states to Water-Energy-Food 
+(WEF) Nexus shocks, and which countries face the most critical 
+systemic risks as of 2023?
+
+METHODOLOGY
+-----------
+1. Data sourced from World Bank World Development Indicators (2024)
+   covering 6 indicators across 6 GCC countries from 2000 to 2023.
+2. Indicators normalised to a 0-10 vulnerability scale using 
+   Min-Max normalisation.
+3. Composite WEF Index computed as weighted average:
+   Water (35%) + Energy (35%) + Food (30%).
+4. Country averages computed over 2018-2023 for stability.
+
+KEY FINDINGS
+------------
+Rank 1 - Saudi Arabia  (WEF Index: 6.38) — Energy transition gap
+Rank 2 - Bahrain       (WEF Index: 6.02) — Extreme water scarcity
+Rank 3 - Kuwait        (WEF Index: 5.34) — Balanced vulnerability
+Rank 4 - Oman          (WEF Index: 4.13) — Food import dependency
+Rank 5 - Qatar         (WEF Index: 4.08) — Moderate across all
+Rank 6 - UAE           (WEF Index: 2.39) — Least vulnerable
+
+HEADLINE INSIGHTS
+-----------------
+1. Saudi Arabia's biggest vulnerability is NOT water — it is the 
+   widest gap between renewable energy ambition and actual delivery
+   in the entire GCC (energy score: 9.95/10).
+
+2. Bahrain faces the most acute water crisis of any GCC member 
+   (water score: 9.96/10), compounded by its status as a low-lying
+   island exposed to sea-level rise.
+
+3. UAE's early investment in nuclear (Barakah) and solar energy 
+   is already measurably reducing its systemic vulnerability —
+   the only GCC member with an energy score below 1.0.
+
+4. Kuwait is the only GCC country with effectively zero renewable
+   electricity output — confirmed by a renewable score of 0.00,
+   making its energy transition the most urgent in the region.
+
+5. Oman's relatively low overall vulnerability masks a critical 
+   food security weakness (food score: 9.23) driven by high 
+   import dependency and limited agricultural capacity.
+
+POLICY RECOMMENDATIONS
+----------------------
+Saudi Arabia: Accelerate renewable deployment beyond Vision 2030 
+targets — current trajectory is insufficient given energy score.
+
+Bahrain: Prioritise solar-powered desalination to break the 
+fossil fuel-water dependency spiral. Explore regional water 
+cooperation framework with GCC neighbours.
+
+Kuwait: Implement the 1.1 GW Shagaya solar project immediately —
+zero renewable output is fiscally and environmentally unsustainable.
+
+UAE: Share Barakah and solar financing model with GCC peers —
+demonstrated success warrants regional knowledge transfer.
+
+Oman: Leverage green hydrogen revenues to fund food security 
+buffers and strategic food reserves.
+
+Qatar: LNG expansion revenues should be ring-fenced partially 
+for renewable transition — the only GCC member with no net-zero 
+target represents a growing reputational and fiscal risk.
+
+DATA SOURCES
+------------
+- World Bank World Development Indicators (2024)
+  https://databank.worldbank.org/source/world-development-indicators
+- Coverage: 2000-2023 | 6 countries | 6 indicators
+- Analysis conducted in Python 3 using Pandas and Matplotlib
+
+=================================================================
