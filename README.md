@@ -56,8 +56,9 @@ This project constructs an original **Water-Energy-Food (WEF) Nexus Vulnerabilit
 ---
 
 ## Related Projects
-gulf-renewable-energy-analysis
+https://github.com/DrSiyan1/gulf-renewable-energy-analysis
 
+---
 
 ## Author
 **Dr. Adedamola Akeem Siyanbola (Ph.D)**
