@@ -1,7 +1,7 @@
 # GCC Water-Energy-Food Nexus Vulnerability Analysis
 **Author:** Dr. Adedamola Akeem Siyanbola (Ph.D) | May 2026
-**Tools:** Python · Pandas · Matplotlib · Seaborn · World Bank Data
-**Data:** World Bank WDI (2000-2023) · 6 Countries · 6 Indicators
+**Tools:** Python Â· Pandas Â· Matplotlib Â· Seaborn Â· World Bank Data
+**Data:** World Bank WDI (2000-2023) Â· 6 Countries Â· 6 Indicators
 
 ---
 
@@ -25,18 +25,18 @@ This project constructs an original **Water-Energy-Food (WEF) Nexus Vulnerabilit
 ## Methodology
 1. **Data collection:** World Bank WDI via web portal (2024)
 2. **Normalisation:** Min-Max scaling to 0-10 vulnerability scale
-3. **Weighting:** Water 35% · Energy 35% · Food 30%
+3. **Weighting:** Water 35% Â· Energy 35% Â· Food 30%
 4. **Period:** 2018-2023 average for index stability
 
 ---
 
 ## Project Structure
-- data/ — raw and cleaned datasets
-- charts/ — 5 publication-quality figures
-- 01_data_exploration.ipynb — data loading and cleaning
-- 02_wef_index.ipynb — index construction
-- 03_visualisations.ipynb — all 5 charts
-- 04_policy_memo.ipynb — findings and recommendations
+- data/ â€” raw and cleaned datasets
+- charts/ â€” 5 publication-quality figures
+- 01_data_exploration.ipynb â€” data loading and cleaning
+- 02_wef_index.ipynb â€” index construction
+- 03_visualisations.ipynb â€” all 5 charts
+- 04_policy_memo.ipynb â€” findings and recommendations
 
 ---
 
@@ -54,6 +54,10 @@ This project constructs an original **Water-Energy-Food (WEF) Nexus Vulnerabilit
 3. Run notebooks in order: 01 then 02 then 03 then 04
 
 ---
+
+## Related Projects
+gulf-renewable-energy-analysis
+
 
 ## Author
 **Dr. Adedamola Akeem Siyanbola (Ph.D)**
